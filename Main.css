@@ -1,18 +1,44 @@
 <style>
 
+     a:link {
+         color: black;
+     }
+     a:visited {
+         color: black;
+     }
+
+     .oop { font-family: Inter;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 15px;}
+
+     .number {
+         margin-bottom: 2px;
+     }
+
+     .adress {
+        position: absolute;
+        top: 11%;
+        right: 20%;
+
+
+
+     }
+
     .LogButton img {
 
         margin-bottom: -3px;
     }
     .LogButton {
-        height: 50px;
+        height: 6%;
         width: 40px;
         border: 2px solid #B81817;
         bottom: 110px;
         font-size: 20px;
         border-radius: 5px;
         position: relative;
-        left: 192px;
+        left: 9%;
         padding: 10px;
         padding-bottom: 3px;
         padding-top: 3px;
