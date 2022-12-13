@@ -1,0 +1,175 @@
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.header-navigation-bar{
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.header-navigation-bar ul{
+    list-style: none;
+
+}
+.header-navigation-bar > ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-navigation-bar ul li{
+    padding: 0.5em 0.5em;
+    margin-right: 5%;
+}
+
+.header-navigation-bar ul li:after{
+    display: inline-block;
+    content: url("img/angle-down.svg");
+    margin-left: 3px;
+    width: 9px;
+    height: 4px;
+
+}
+
+.for-visually-impaired    {
+
+    font-size: 112%;;
+    left: 30%;
+    right: 27%;
+    top: 0%;
+    bottom: 0%;
+
+    background-color: #D9D9D9;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+
+.for-visually-impaired:after{
+    display: inline;
+    vertical-align: middle;
+    content: url("img/icon_eye.svg");
+    margin-left: 3px;
+}
+
+.horizontal-line{
+    color: black;
+    height: 0px;
+    background-color: black;
+    border: 1px solid #000000;
+}
+
+.color-logo-omgu {
+    width: 260px;
+    height: auto;
+    left: 235px;
+    top: 44px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.title1 {
+    align-items:center;
+    font-size: 250%;
+}
+
+.header-under-navigation-bar {
+    display: flex;
+    width:100%
+    font-size: 90%;
+    justify-content: center;
+}
+
+.header-information-block {
+    margin-left: 20%;
+
+}
+
+.log-in{
+
+    border: 2px #B81817;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+
+.log-in:before{
+    vertical-align: middle;
+    content: url("img/image 12.jpg");
+    margin-left: 3px;
+}
+.phone:before{
+    vertical-align: middle;
+    content: url("img/image 10.jpg");
+    margin-left: 3px;
+}
+
+.dsw-menu {
+    background-color: #E74613;
+    width: 100%
+
+}
+
+.dsw-menu ul li a{
+    color: white;
+    font-size: 110%;
+}
+
+.dsw-menu ul li{
+    padding: 0.5em 0.5em;
+    margin-right: 1%;
+}
+
+.dsw-menu ul{
+
+    list-style: none;
+
+}
+.dsw-menu > ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.dsw-menu ul li:hover{
+    background-color: #e67957;
+}
+.footer{
+    background-color: #D9D9D9;
+}
+
+.footer-navigation{
+    display: flex;
+    background-color: #D9D9D9;
+    text-align:left;
+    justify-content: center;
+    padding: 5em 5em;
+
+}
+
+.footer-menu ul{
+    list-style: none;
+
+}
+.footer-menu ul li{
+    padding: 0.5em 0.5em;
+}
+
+.footer-menu ul li:before{
+    display: inline-block;
+    content: url("img/angle-down.svg");
+    transform: rotate(-90deg);
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 9px;
+    height: 4px;
+
+}
