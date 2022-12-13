@@ -13,9 +13,11 @@ a:visited {
     bottom: 0%;
     width: 100%;
     font-size: 100%;
+    margin-bottom: -6px;
     text-align: center;
     vertical-align: center;
 }
+
 
 .header-navigation-bar ul{
     list-style: none;
@@ -24,6 +26,9 @@ a:visited {
 .header-navigation-bar > ul{
     display: flex;
     justify-content: center;
+
+}
+.header-navigation-bar ul li .Vector {
 
 }
 
@@ -43,21 +48,36 @@ a:visited {
 
 .for-visually-impaired    {
 
-    font-size: 112%;;
-    left: 30%;
-    right: 27%;
-    top: 0%;
-    bottom: 0%;
-
-    background-color: #D9D9D9;
-    padding: 2px 2px;
+    font-family: "Times New Roman";
+    position: relative;
+    letter-spacing: 0.09em;
+    font-size: 14px;
+    width: 200px;
+    height: 20px;
+    background: #D9D9D9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
     border-radius: 5px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+
 }
+
+
+.for-visually-impaired img  {
+    text-align: left;
+    margin-bottom: -6px;
+    width: 30px;
+    height: 30px;
+
+}
+
 
 .for-visually-impaired:after{
     display: inline;
     vertical-align: middle;
-    content: url("img/icon_eye.svg");
+
     margin-left: 3px;
 }
 
@@ -78,13 +98,15 @@ a:visited {
 }
 
 .title1 {
-    align-items:center;
+    margin-top: 2%;
+    lign-aitems:center;
+    margin-left: 10%;
     font-size: 250%;
 }
 
 .header-under-navigation-bar {
     display: flex;
-    width:100%
+    width:100%;
     font-size: 90%;
     justify-content: center;
 }
@@ -96,9 +118,20 @@ a:visited {
 
 .log-in{
 
-    border: 2px #B81817;
-    padding: 2px 2px;
+    border: 2px solid #EB6136;
+    padding-bottom: 6px;
+    height: 20px;
+
     border-radius: 5px;
+    position: relative;
+    text-align: left;
+    top: 5px;
+    left: 30px;
+
+
+}
+.log-in img  {
+    margin-top: 3px;
 }
 
 .log-in:before{
@@ -113,7 +146,7 @@ a:visited {
 }
 
 .dsw-menu {
-    background-color: #E74613;
+    background-color: #EB6136;
     width: 100%
 
 }
