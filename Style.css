@@ -18,6 +18,12 @@ a:visited {
     vertical-align: center;
 }
 
+.news_block  {
+    height: 750px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: aqua;
+}
 
 .header-navigation-bar ul{
     list-style: none;
@@ -29,6 +35,23 @@ a:visited {
 
 }
 .header-navigation-bar ul li .Vector {
+
+}
+
+.info_block {
+    margin-top: 5px;
+    height: 200px ;
+    width: 100%;
+    background-color: #EB6136;
+    text-align: center;
+
+}
+
+.undermenu  {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #e67957;
 
 }
 
@@ -46,6 +69,32 @@ a:visited {
 
 }
 
+.commission_info {
+    display: inline-block;
+    height: 300px;
+    width: 30%;
+    background-color: darkkhaki;
+    margin-left: 100%;
+}
+.quests_and_answers {
+    height: 900px;
+    width: 75%;
+    background-color: green;
+}
+.campuses_adress {
+    display: inline-block;
+    height: 300px;
+    background-color: #c35e5e;
+    width: 30%;
+    margin-left: 100%;
+}
+.calendar {
+    display: inline-block;
+    height: 300px;
+    background-color: darkslategray;
+    width: 30%;
+    margin-left: 100%;
+        }
 .for-visually-impaired    {
 
     font-family: "Times New Roman";
@@ -170,6 +219,13 @@ a:visited {
     display: flex;
     justify-content: center;
 
+}
+
+.about {
+
+    height: 300px;
+    width: 75%;
+    background-color: crimson;
 }
 
 .dsw-menu ul li:hover{
