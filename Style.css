@@ -122,6 +122,43 @@ a:visited {
     margin-left: 100%;
     margin-top: -20px;
 }
+.aboutInfo {
+    position: relative;
+    left: 70px;
+    top:10px;
+}
+.container_of_buttons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:10px;
+}
+.container_of_buttons div {
+     width: 150px;
+     height: 40px;
+     background-color: #c35e5e;
+     border: 2px solid saddlebrown;
+     border-radius: 5px;
+     text-align: center;
+}
+.container_of_buttons p {
+   position: relative;
+   bottom: 4px;
+}
+
+.aboutUniv {
+    letter-spacing: 0.09em;
+    font-family: "Times New Roman";
+    position: relative;
+    top: 10px;
+    left: 80px;
+    font-size: 20px;
+    width: 200px;
+    height:25px;
+    background-color: #EB6136;
+    border: 2px solid cadetblue;
+    border-width: 0px 0px 4px 0px;
+}
 .calendar {
     display: inline-block;
     height: 300px;
