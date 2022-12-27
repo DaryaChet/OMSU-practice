@@ -1,3 +1,4 @@
+/*global*/
 
 a:link {
     color: black;
@@ -529,4 +530,33 @@ a:visited {
     text-align: center;
     background-color: #B81817;
     height: 50px;
+}
+
+
+.list-of-document-for-entrants a{
+    text-decoration: none;
+}
+
+.list-of-document-for-entrants a:hover{
+    background-color: #f0f0f0;
+
+}
+
+.list-of-document-for-entrants ul{
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 17px;
+    list-style: none;
+
+}
+
+.list-of-document-for-entrants li{
+    padding: 5px;
+    border-bottom: 4px solid #f0f0f0;
+}
+
+.list-of-document-for-entrants h2{
+    text-align:center;
 }
