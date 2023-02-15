@@ -1,0 +1,80 @@
+.container-for-buttons-entrant a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.container-for-buttons-entrant a:hover{
+    color: black;
+}
+
+.container-for-buttons-entrant table{
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.container-for-buttons-entrant td{
+
+    text-align: center;
+    background-color: #924b37;
+    height: 50px;
+}
+.wrapper_boss {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_entrant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.container-for-buttons-entrant {
+    flex-grow: 1;
+    height: auto;
+}
+.map_of_campuses {
+    margin-right: 40px;
+    height: 230px;
+}
+.commission_and_calendar {
+margin-left: 260px;
+    width: 100%;
+
+}
+.abit_list {
+    margin-top: 50px;
+    background-color: #c35e5e;
+    width: 800px;
+    height: 50px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 5px;
+}
+.amount_of_vacancies {
+    background-color: #c35e5e;
+    width: 800px;
+    height: 50px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 5px;
+}
+.amount_of_vacancies p {
+    padding-top: 15px;
+}
+.abit_list p {
+    margin-top: 2px;
+    padding-top: 15px;
+}
+
+.wrapper_lower_entrant {
+    display: flex;
+    flex-direction: row;
+    margin-left: 270px;
+
+
+}
+

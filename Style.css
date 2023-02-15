@@ -133,7 +133,7 @@ a:visited {
 .commission_info {
 
     height: 400px;
-    width: 30%;
+
     background-color: darkkhaki;
 
 }
@@ -295,7 +295,6 @@ a:visited {
 
     height: 400px;
     background-color: darkslategray;
-    width: 30%;
 
  }
 
@@ -385,7 +384,9 @@ a:visited {
     margin-left: 20%;
 
 }
+.commission_info {
 
+}
 .log-in{
 
     border: 2px solid #EB6136;
@@ -506,31 +507,6 @@ a:visited {
 
 
 /*Entrant*/
-
-.container-for-buttons-entrant a{
-    text-decoration:none;
-    color: white;
-    font-size: 20px;
-
-}
-
-.container-for-buttons-entrant a:hover{
-    color: black;
-}
-
-.container-for-buttons-entrant table{
-    width: 60%;
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.container-for-buttons-entrant td{
-
-    text-align: center;
-    background-color: #B81817;
-    height: 50px;
-}
 
 
 .list-of-document-for-entrants a{
