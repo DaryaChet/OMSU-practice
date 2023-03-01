@@ -511,28 +511,31 @@ a:visited {
 
 .list-of-document-for-entrants a{
     text-decoration: none;
+    margin-top: 5px;
 }
 
 .list-of-document-for-entrants a:hover{
     background-color: #f0f0f0;
 
 }
-
+.list-of-document-for-entrants {
+    width: 50%;
+    margin-right: 10%;
+}
 .list-of-document-for-entrants ul{
     width: 60%;
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin: 1% auto 10%;
     font-size: 17px;
     list-style: none;
 
 }
 
-.list-of-document-for-entrants li{
-    padding: 5px;
-    border-bottom: 4px solid #f0f0f0;
+.list-of-document-for-entrants ul li{
+    margin-top: 20px;
+
 }
 
 .list-of-document-for-entrants h2{
-    text-align:center;
+       text-align: center;
+       margin-left: 5%;
 }

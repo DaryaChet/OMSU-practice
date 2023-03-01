@@ -1,0 +1,5 @@
+.wrapper_boss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
